@@ -1,0 +1,79 @@
+/* Universal Seletor  */
+*{
+    border: 2px solid grey;
+}
+
+/* Element Selector */
+
+div{
+    background-color: palevioletred;
+    border: 2px solid black;
+}
+
+/* Id Selector */
+#heading{
+    background-color: lightgreen;
+}
+
+
+/* Class selector : Can be applied on multiple HTML Elements */
+.fav-movie{
+    font-weight: bold;
+    color: lightblue;
+}
+
+/* Descendent Selector */
+
+article strong{
+    color: green;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* Adjacent Selector*/
+
+h4+p{
+    text-decoration: line-through;
+    color: purple;
+}
+
+/* Pseudo Selector */
+
+form button:hover{
+    background-color: lightskyblue;
+    font-size: 24px;
+}
+
+form input:focus{
+    background-color: lightcyan;
+
+}
+
+input:disabled{
+    background-color: blue;
+}
+
+/* nth-of-type */
+
+ol li:nth-of-type(3){
+    color: purple;
+}
+
+ol li:first-child{
+    color: orange;
+}
+ol li:last-child{
+    color: red;
+}
+
+/* ol li:nth-of-type(2n+3){
+    background-color: aqua;
+} */
+
+/* ol li:nth-of-type(even){
+    background-color: aqua;
+} */
+
+ol li:nth-of-type(odd){
+    background-color: aqua;
+}
