@@ -1,0 +1,33 @@
+h1{
+    background-color: aqua;
+    border: 4px solid black;
+    /* display: inline;
+    width: 600px;
+    height: 400px;
+    margin: 20px;
+    padding: 15px; */
+}
+
+span{
+    background-color: palevioletred;
+    border: 4px solid black;
+    display: block;
+    width: 400px;
+    margin: 30px;
+    padding: 20px;
+}
+
+div{
+    font-size: 20px;
+    background-color: orange;
+    border: 4px solid black;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+}
+
+div:nth-of-type(2){
+    display: none;
+}

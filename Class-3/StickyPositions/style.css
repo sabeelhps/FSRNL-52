@@ -1,0 +1,11 @@
+div{
+    height: 30px;
+    width: 300px;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    padding: 0.5rem;
+    position: sticky;
+    top: 10px;
+    background-color: gray;
+}

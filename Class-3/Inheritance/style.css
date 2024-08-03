@@ -1,0 +1,16 @@
+/* Inheritance: https://developer.mozilla.org/en-US/docs/Web/CSS/Inheritance */
+/* Read about the values used to control inheritance */
+
+div{
+    color: purple;
+    border-top: 10px solid orange;
+}
+
+div article:nth-of-type(3) section{
+    border-top: 10px solid palevioletred;
+}   
+
+div article:nth-of-type(3) section p{
+    border-top: inherit;
+}
+
