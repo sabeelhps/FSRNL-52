@@ -1,0 +1,29 @@
+section{
+    border:3px solid black;
+    width: 85vw;
+    margin: 30px auto;
+    padding: 1rem;
+}
+
+h1{
+    font-size: 6rem;
+    color: purple;
+    text-align: center;
+}
+
+@media all and (width<=765px){
+    h1{
+        font-size: 4.5rem;
+        color: lightgreen;
+    }
+}
+
+@media all and (width<=570px){
+    h1{
+        font-size: 3.5rem;
+        color: lightslategray;
+    }
+    body{
+        background-color: #ccc;
+    }
+}
